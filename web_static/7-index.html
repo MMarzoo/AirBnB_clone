@@ -1,73 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<title>AirBnB clone</title>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>AirBnB Clone</title>
-	<link rel="stylesheet" href="styles/4-common.css">
-	<link rel="stylesheet" href="styles/3-header.css">
-	<link rel="stylesheet" href="styles/6-filters.css">
-	<link rel="stylesheet" href="styles/7-places.css">
-	<link rel="stylesheet" href="styles/3-footer.css">
-	<link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
-</head>
+		<link rel="shortcut icon" href="images/icon.ico" >
 
-<body>
-	<header>
-		<div class="logo"></div>
-	</header>
+		<link rel="stylesheet" href="styles/4-common.css"/>
+		<link rel="stylesheet" href="styles/3-header.css"/>
+		<link rel="stylesheet" href="styles/3-footer.css"/>
+		<link rel="stylesheet" href="styles/6-filters.css"/>
+		<link rel="stylesheet" href="styles/7-places.css"/>
+	</head>
+    <body>
+		<header>
+			<div id="header_logo"></div>
+		</header>
+		<div class="container">
+			<section class="filters">
+				<button>Search</button>
+				<div class="locations">
+					<h3>States</h3>
+					<h4>Cairo, Egypt...</h4>
+					<ul class="popover">
+						<li><h2>Alexandria</h2>
+							<ul>
+								<li><h4>Page</h4></li>
+								<li><h4>Page2</h4></li>
+							</ul></li>
+						<li><h2>Hurghada</h2>
+							<ul>
+								<li><h4>Page-Here</h4></li>
+								<li><h4>Page-Here</h4></li>
+							</ul></li>
+					</ul>
+				</div>
+				<div class="amenities">
+					<h3>Amenities</h3>
+					<h4>WiFi, Kitchen...</h4>
+					<ul class="popover">
+						<li><h4>WiFi</h4></li>
+						<li><h4>TV</h4></li>
+						<li><h4>Kitchen</h4></li>
+						<li><h4>Iron</h4></li>
+					</ul>
+				</div>
 
-	<div class="container">
-		<section class="filters">
-			<div class="locations">
-				<h3>States</h3>
-				<h4>Cairo, Alexandria...</h4>
-				<ul class="popover">
-					<li>
-						<h2>Alexandria:</h2>
-						<p>page-here</p>
-						<p>page-here</p>
-					</li>
-					<li>
-						<h2>Sharm El-Sheikh:</h2>
-						<p>page-here</p>
-						<p>page-here</p>
-					</li>
-				</ul>
-			</div>
-			<div class="amenities">
-				<h3>Amenities</h3>
-				<h4>WiFi, Air Conditioner...</h4>
-				<ul class="popover">
-					<li>Internet</li>
-					<li>Kitchen</li>
-					<li>Tv Cable</li>
-					<li>Air Conditioner</li>
-				</ul>
-			</div>
-			<button>Search</button>
-		</section>
-
-		<section class="places">
-			<h1>Places</h1>
-			<div class="container">
+			</section>
+			<section class="places">
+				<h1>Places</h1>
 				<article>
-					<h2>My Home</h2>
+					<h2>My home</h2>
 				</article>
 				<article>
-					<h2>Big House</h2>
+					<h2>Tiny house</h2>
 				</article>
 				<article>
-					<h2>A Suite</h2>
+					<h2>A suite</h2>
 				</article>
-			</div>
-		</section>
-	</div>
-
-	<footer>
-		<p>Best School</p>
-	</footer>
-</body>
-
+			</section>
+		</div>
+		<footer>
+			<p>Best School</p>
+		</footer>
+	</body>
 </html>
